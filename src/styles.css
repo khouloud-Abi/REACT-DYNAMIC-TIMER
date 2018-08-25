@@ -1,0 +1,53 @@
+* {
+  right: 100px;
+}
+
+.all {
+  background: url("https://i.pinimg.com/originals/7e/70/93/7e7093bb4507ddf6f20f6bb3f662153c.png")
+    no-repeat;
+  background-size: cover;
+  height: 97vw;
+  margin: -8px;
+}
+
+.Timer-unity {
+  display: flex;
+  justify-content: space-between;
+  width: 300px;
+  color: rgb(187, 176, 176);
+  position: fixed;
+  top: 200px;
+  left: 110px;
+  font-size: 25px;
+}
+
+.reset {
+  margin-left: 10px;
+  background: orange;
+}
+
+button {
+  border: 0;
+  padding: 10px;
+  color: white;
+  background: #f44336;
+  cursor: pointer;
+  font-size: 40px;
+  margin-top: 50px;
+  width: 152px;
+}
+
+.paused {
+  background: #50c950;
+}
+
+.container {
+  position: fixed;
+  top: 250px;
+}
+
+h1 {
+  position: fixed;
+  top: 100px;
+  font-size: 80px;
+}
